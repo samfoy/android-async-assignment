@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">InClass3</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="select_passwords">Select Passwords count: </string>
+    <string name="generate_threads">Generate Passwords (Threads</string>
+    <string name="generate_async">Generate Passwords (Async Task)</string>
+    <string name="generating_dialogue">Generating Passwords ...</string>
+</resources>

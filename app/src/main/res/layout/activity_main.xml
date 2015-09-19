@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_passwords"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:id="@+id/textViewCount"
+        />
+
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="30sp"
+        android:layout_below="@+id/textViewCount"
+        android:layout_marginTop="40sp"
+        android:max="10"
+        android:id="@+id/seekBarSelect"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekBarSelect"
+        android:id="@+id/textViewPassword"
+        android:layout_marginTop="40sp"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPassword"
+        android:layout_marginTop="40sp"
+        android:text="@string/generate_threads"
+        android:id="@+id/buttonThreads"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="20sp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonThreads"
+        android:layout_marginTop="20sp"
+        android:text="@string/generate_async"
+        android:id="@+id/buttonAsync"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="10sp"/>
+</RelativeLayout>
